@@ -1,0 +1,15 @@
+#userList {
+    li {
+        cursor: pointer;
+    }
+
+    .list-navigation {
+        display: flex;
+        justify-content: center;
+
+        div {
+            margin: 5px;
+        }
+    }
+
+}

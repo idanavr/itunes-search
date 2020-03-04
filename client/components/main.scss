@@ -1,0 +1,93 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: #fafbfc;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #0095ff7a;
+    padding: 5px;
+    border: 2px solid black;
+    font: 20px 'Merienda One', Helvetica, sans-serif;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007cfb47;
+}
+
+button:active {
+    background-color: #79c3f77a;
+}
+
+input,
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font: inherit;
+    font-size: 15px;
+}
+
+input[type="button"]:hover,
+textarea:hover {
+    background-color: #fffcf114;
+    cursor: pointer;
+}
+
+input:focus {
+    border-color: #66afe8
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    margin: 10px;
+}
+
+audio {
+    outline: none;
+}
+
+.container {
+    padding-top: 10px;
+    display: flex;
+    width: 80%;
+    margin: auto auto;
+    font: 25px 'Merienda One', Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container>div,
+.container>form {
+    margin: auto;
+}
+
+.footer {
+    width: 80%;
+    margin: 50px auto 30px;
+    bottom: 0;
+    text-align: center;
+}
+
+.loadingPage {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+}
+
+.input-title {
+    font-size: 15px;
+    text-align: left;
+}
